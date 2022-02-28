@@ -24,7 +24,7 @@ while 1:
               " A harfi yeşil yandığı için 'G' harfini kullanıyoruz.\n"
               " M harfi sarı yandığı için 'Y' harfini kullanıyoruz\n\n"
               "Yani Kısaca girmemiz gereken girdi 'BGBBY' olacaktır.\n"
-              "Böylelikle program bize buna uygun tekrar kelime üretecektir.\n\n")
+              "Böylelikle program bize buna uygun yeni kelime üretecektir.\n\n")
         while 1:
             back = int(input("1-Back\n>"))
             if back == 1:
