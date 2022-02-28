@@ -84,5 +84,5 @@ while turn < 6:
         common = list(set(correct_list_common).intersection(wrong_list_common))
         common = list(set(common).intersection(cbwi_list_common))
 
-    key = str(random.choice(common)).upper()
+    key = random.choice(common).upper()
     turn += 1
