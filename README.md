@@ -8,7 +8,7 @@
 
 #### Sarı(Yellow) için 'Y' harfi
 
-##### Siyah(Black) için 'B' harfi kullanınız.
+#### Siyah(Black) için 'B' harfi kullanınız.
 
 **Örnek:**
 
