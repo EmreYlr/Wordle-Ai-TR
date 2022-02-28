@@ -1,12 +1,26 @@
 from Search import *
 import random
+import Tutorial
 wrong = []
 wrong_index = []
 cbwi = []  # Correct_But_Wrong_Index
 cbwi_index = []
 correct = []
 correct_index = []
-key = "ABIDE"  # First Key
+first_key = int(input(" Henüz herhangi bir kelime tahmin etmediyseniz, güzel bir ilk kelime için 1'e basın!\n Kendi "
+                      "tahmininizi yazmak istiyorsanız 0'a basın!\n >>>"))
+while 1:
+    if first_key == 1:
+        key = "ABIDE"  # First Key
+        break
+    elif first_key == 0:
+        key = input(">")
+        break
+    else:
+        print("Wrong Key")
+        first_key = int(input(">>>"))
+
+print("\n" * 10)
 turn = 0
 while turn < 6:
     i = 0
