@@ -14,7 +14,8 @@ while 1:
         key = "ABIDE"  # First Key
         break
     elif first_key == 0:
-        key = input(">")
+        key = str(input(">"))
+        key = key.upper()
         break
     else:
         print("Wrong Key")
